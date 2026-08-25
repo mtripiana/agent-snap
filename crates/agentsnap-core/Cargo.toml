@@ -13,7 +13,7 @@ categories = ["filesystem", "os"]
 
 [dependencies]
 thiserror = "=1.0.64"
-nix = { version = "=0.29.0", default-features = false, features = ["mount"] }
+nix = { version = "=0.31.3", default-features = false, features = ["mount"] }
 libc = "=0.2.189"
 
 [dev-dependencies]
