@@ -12,7 +12,7 @@ keywords = ["sandbox", "security", "ai", "snapshot"]
 categories = ["filesystem", "os"]
 
 [dependencies]
-thiserror = "=1.0.64"
+thiserror = "=2.0.20"
 nix = { version = "=0.29.0", default-features = false, features = ["mount"] }
 libc = "=0.2.189"
 
