@@ -1,0 +1,35 @@
+# Rust
+/target/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+dist/
+build/
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfplan
+
+# Local tooling and OS files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Local AgentSnap runtime data
+agentsnap.sock
+agentsnap-demo-done.txt

@@ -1,0 +1,17 @@
+[workspace]
+members = [
+    "crates/agentsnap-core",
+    "crates/agentsnap-daemon",
+    "crates/agentsnap-cli",
+]
+resolver = "2"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+authors = ["AgentSnap contributors"]
+description = "Local-first snapshots and isolated command execution for AI agent workflows"
+readme = "README.md"
+repository = "https://github.com/agentsnap/agentsnap"
+rust-version = "1.81"

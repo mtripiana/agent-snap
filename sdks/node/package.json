@@ -1,0 +1,27 @@
+{
+  "name": "@agentsnap/sdk",
+  "version": "0.1.0",
+  "description": "Node SDK for AgentSnap daemon",
+  "type": "module",
+  "license": "MIT OR Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/agentsnap/agentsnap.git",
+    "directory": "sdks/node"
+  },
+  "bugs": {
+    "url": "https://github.com/agentsnap/agentsnap/issues"
+  },
+  "homepage": "https://github.com/agentsnap/agentsnap/tree/main/sdks/node",
+  "engines": {
+    "node": ">=20"
+  },
+  "files": ["src", "README.md", "LICENSE-MIT", "LICENSE-APACHE"],
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node --test tests/*.test.js"
+  }
+}
