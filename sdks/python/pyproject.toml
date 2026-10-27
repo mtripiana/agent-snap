@@ -23,7 +23,7 @@ Repository = "https://github.com/agentsnap/agentsnap"
 Issues = "https://github.com/agentsnap/agentsnap/issues"
 
 [build-system]
-requires = ["setuptools>=68", "wheel"]
+requires = ["setuptools>=84.2.1", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools]
